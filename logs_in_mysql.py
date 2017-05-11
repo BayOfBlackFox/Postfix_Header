@@ -6,12 +6,11 @@ import MySQLdb
 import time
 from datetime import datetime
 from itertools import ifilter
-
 from email.message import Message
 from email.header import Header
 from email.header import decode_header
-
 import sys
+
 sys.setrecursionlimit(10000)
 blacklist = ['username@example.com']
 
